@@ -6,9 +6,6 @@ updates:
     schedule:
       interval: "weekly"
       day: "saturday"
-    labels:
-      - "type: update"
-      - "team: nucleus"
 
   # Maintain our test dependencies
   - package-ecosystem: "composer"
@@ -17,9 +14,6 @@ updates:
       interval: "daily"
       time: "01:00"
       timezone: "Europe/Amsterdam"
-    labels:
-      - "type: update"
-      - "team: nucleus"
     # Let core team maintainers review it.
     reviewers:
       - "goalgorilla/maintainers"
