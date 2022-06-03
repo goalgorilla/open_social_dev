@@ -15,7 +15,7 @@
     "mikey179/vfsstream": "^1.6",
     "mglaman/phpstan-drupal": "1.1.17",
     "phpstan/extension-installer": "^1.1",
-    "phpstan/phpstan": "1.7.1",
+    "phpstan/phpstan": "1.7.9",
     "phpstan/phpstan-deprecation-rules": "^1.0",
     "phpstan/phpstan-phpunit": "1.1.1",
     "phpspec/prophecy-phpunit": "^2.0",
