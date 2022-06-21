@@ -5,20 +5,20 @@
   "license": "GPL-2.0-or-later",
   "require": {
     "dealerdirect/phpcodesniffer-composer-installer": "~0.7.1",
-    "drupal/coder": "^8.3",
-    "drupal/core-dev": "~9.3.15",
-    "drupal/devel": "^4.1",
-    "drupal/drupal-extension": "^4.1",
+    "drupal/coder": "8.3.15",
+    "drupal/core-dev": "~9.3.16",
+    "drupal/devel": "4.1.5",
+    "drupal/drupal-extension": "v4.2.0",
     "drush/drush": "11.*@stable",
-    "jcalderonzumba/gastonjs": "~1.2.0",
-    "jcalderonzumba/mink-phantomjs-driver": "~0.3.3",
-    "mikey179/vfsstream": "^1.6",
+    "jcalderonzumba/gastonjs": "v1.2.0",
+    "jcalderonzumba/mink-phantomjs-driver": "v0.3.3",
+    "mikey179/vfsstream": "v1.6.10",
     "mglaman/phpstan-drupal": "1.1.20",
-    "phpstan/extension-installer": "^1.1",
+    "phpstan/extension-installer": "1.1.0",
     "phpstan/phpstan": "1.7.14",
     "phpstan/phpstan-deprecation-rules": "^1.0",
     "phpstan/phpstan-phpunit": "1.1.1",
-    "phpspec/prophecy-phpunit": "^2.0",
-    "goalgorilla/open_social_scripts": "^3.0"
+    "phpspec/prophecy-phpunit": "v2.0.1",
+    "goalgorilla/open_social_scripts": "3.1.0"
   }
 }
