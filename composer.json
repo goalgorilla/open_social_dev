@@ -13,7 +13,7 @@
     "jcalderonzumba/gastonjs": "v1.2.0",
     "jcalderonzumba/mink-phantomjs-driver": "v0.3.3",
     "mikey179/vfsstream": "v1.6.10",
-    "mglaman/phpstan-drupal": "1.1.20",
+    "mglaman/phpstan-drupal": "1.1.24",
     "phpstan/extension-installer": "1.1.0",
     "phpstan/phpstan": "1.7.14",
     "phpstan/phpstan-deprecation-rules": "^1.0",
