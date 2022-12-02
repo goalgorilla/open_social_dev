@@ -19,5 +19,12 @@
     "phpstan/phpstan-phpunit": "1.1.1",
     "phpspec/prophecy-phpunit": "v2.0.1",
     "goalgorilla/open_social_scripts": "4.0.0"
+  },
+  "extra": {
+    "patches": {
+      "drupal/drupal-driver": {
+        "https://github.com/jhedstrom/DrupalDriver/issues/259 - Fix taxonomy term creation": "https://github.com/jhedstrom/DrupalDriver/files/10139569/DrupalDriver-pr-260.patch.txt"
+      }
+    }
   }
 }
