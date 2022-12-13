@@ -1,0 +1,61 @@
+name: 'Compatibility'
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on all pull request events
+  pull_request: { }
+  # Trigger workflow for release branches.
+  push:
+    branches:
+      - main
+
+# github.head_ref is only set when the workflow was triggered by a pull_request and it contains the value of the source branch of the PR.
+# github.ref_name will than only be used if the workflow was not triggered by a pull_request and it also just contains the branch name.
+env:
+  BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+  COMPOSER_JSON: |
+
+jobs:
+  previous_major:
+    name: 'Distribution - Previous Major'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: "Try composer installation"
+        run: |
+          set -e
+          sudo apt-get install -y jq
+        
+          # Set up our test composer.json project.
+          cp tests/composer.json composer.json
+          
+          # This gets all version info from composer for Open Social. We then
+          # use jq to traverse and manipulate the JSON data to find ourselves
+          # the last stable major version before the current stable major
+          # version.
+          PREVIOUS_MAJOR=`composer info -a --format json goalgorilla/open_social | jq '.versions | map(select(contains("-") == false)) | map(split(".")[0] | tonumber) | unique | reverse | .[1]'`
+
+          composer require --ignore-platform-reqs goalgorilla/open_social:^$PREVIOUS_MAJOR goalgorilla/open_social_dev:dev-$BRANCH_NAME
+
+  current_major:
+    name: 'Distribution - Current Major'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: "Try composer installation"
+        run: |
+          set -e
+          sudo apt-get install -y jq
+          
+          # Set up our test composer.json project.
+          cp tests/composer.json composer.json
+          
+          # This gets all version info from composer for Open Social. We then
+          # use jq to traverse and manipulate the JSON data to find ourselves
+          # the last stable major version before the current stable major
+          # version.
+          CURRENT_MAJOR=`composer info -a --format json goalgorilla/open_social | jq '.versions | map(select(contains("-") == false)) | map(split(".")[0] | tonumber) | unique | reverse | .[0]'`
+
+          composer require --ignore-platform-reqs goalgorilla/open_social:^$CURRENT_MAJOR goalgorilla/open_social_dev:dev-$BRANCH_NAME
