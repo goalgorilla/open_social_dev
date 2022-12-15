@@ -19,7 +19,7 @@
     "phpstan/phpstan-deprecation-rules": "^1.0",
     "phpstan/phpstan-phpunit": "1.1.1",
     "phpspec/prophecy-phpunit": "v2.0.1",
-    "goalgorilla/open_social_scripts": "4.0.0",
+    "goalgorilla/open_social_scripts": "~4.0.0",
     "symfony/phpunit-bridge": "^4.4 || ^5.4 || ^6.2"
   }
 }
