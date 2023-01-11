@@ -21,5 +21,12 @@
     "phpspec/prophecy-phpunit": "v2.0.1",
     "goalgorilla/open_social_scripts": "~4.0.0",
     "symfony/phpunit-bridge": "^4.4 || ^5.4 || ^6.2"
+  },
+  "extra": {
+    "patches": {
+      "behat/behat": {
+        "PR 1420 - Allow test selection to be empty": "https://github.com/Kingdutch/Behat/commit/22b329b72b471e7db8f197c10c5852d548d502d4.diff"
+      }
+    }
   }
 }
