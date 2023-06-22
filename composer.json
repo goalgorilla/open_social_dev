@@ -4,7 +4,7 @@
   "description": "require-dev dependencies for goalgorilla/open_social required to run tests and coding standard checks.",
   "license": "GPL-2.0-or-later",
   "require": {
-    "dealerdirect/phpcodesniffer-composer-installer": "~0.7.1",
+    "dealerdirect/phpcodesniffer-composer-installer": "~1.0.0",
     "dmore/behat-chrome-extension": "^1.4",
     "drupal/coder": "8.3.20",
     "drupal/devel": "2.1 || 5.0.2",
