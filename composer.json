@@ -8,7 +8,7 @@
     "dmore/behat-chrome-extension": "^1.4",
     "drupal/coder": "8.3.22",
     "drupal/devel": "5.1.2",
-    "drupal/drupal-extension": "v4.2.1 || v5.0.0rc1",
+    "drupal/drupal-extension": "v5.0.0rc1",
     "friends-of-behat/mink-debug-extension": "^2.1",
     "drush/drush": "^12",
     "mglaman/phpstan-drupal": "1.1.30",
