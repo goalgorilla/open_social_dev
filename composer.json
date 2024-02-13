@@ -6,7 +6,7 @@
   "require": {
     "dealerdirect/phpcodesniffer-composer-installer": "~1.0.0",
     "dmore/behat-chrome-extension": "^1.4",
-    "drupal/coder": "8.3.22",
+    "drupal/coder": "8.3.23",
     "drupal/devel": "5.1.2",
     "drupal/drupal-extension": "v5.0.0rc1",
     "friends-of-behat/mink-debug-extension": "^2.1",
