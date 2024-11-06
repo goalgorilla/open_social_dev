@@ -7,22 +7,22 @@
     "dealerdirect/phpcodesniffer-composer-installer": "~1.0.0",
     "dmore/behat-chrome-extension": "^1.4",
     "drupal/coder": "8.3.22",
-    "drupal/devel": "5.1.2",
-    "drupal/drupal-extension": "v5.0.0rc1",
+    "drupal/devel": "^5.1.2",
+    "drupal/drupal-extension": "^v5.0.0rc1 || v5.1.0",
     "friends-of-behat/mink-debug-extension": "^2.1",
-    "drush/drush": "^12",
+    "drush/drush": "^12 | ^13",
     "drupal/upgrade_status":"^4.3",
     "kingdutch/cucumber-linter": "^0.1.0",
     "mglaman/phpstan-drupal": "1.2.4",
     "mikey179/vfsstream": "^1.6.11",
     "palantirnet/drupal-rector": "^0.20.3",
-    "phpstan/extension-installer": "1.3.1",
+    "phpstan/extension-installer": "^1.3.1 || ^1.4.3",
     "phpstan/phpstan": "~1.10.35",
     "phpstan/phpstan-deprecation-rules": "^1.0",
     "phpstan/phpstan-phpunit": "1.3.15",
     "phpspec/prophecy-phpunit": "v2.0.2",
     "goalgorilla/open_social_scripts": "~4.0.0",
-    "symfony/phpunit-bridge": "^4.4 || ^5.4 || ^6.2"
+    "symfony/phpunit-bridge": "^4.4 || ^5.4 || ^6.2 || ^7.0"
   },
   "extra": {
     "patches": {
