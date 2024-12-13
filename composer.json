@@ -13,7 +13,7 @@
     "drush/drush": "^12 | ^13",
     "drupal/upgrade_status":"^4.3",
     "kingdutch/cucumber-linter": "^0.1.0",
-    "mglaman/phpstan-drupal": "1.2.4",
+    "mglaman/phpstan-drupal": "1.2.7",
     "mikey179/vfsstream": "^1.6.11",
     "palantirnet/drupal-rector": "^0.20.3",
     "phpstan/extension-installer": "^1.3.1 || ^1.4.3",
