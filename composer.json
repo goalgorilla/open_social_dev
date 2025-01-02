@@ -12,6 +12,7 @@
     "friends-of-behat/mink-debug-extension": "^2.1",
     "drush/drush": "^12 | ^13",
     "drupal/upgrade_status":"^4.3",
+    "jangregor/phpstan-prophecy": "^1.0",
     "kingdutch/cucumber-linter": "^0.1.0",
     "mglaman/phpstan-drupal": "1.2.4",
     "mikey179/vfsstream": "^1.6.11",
