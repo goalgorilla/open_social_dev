@@ -23,7 +23,7 @@
     "phpstan/phpstan-phpunit": "^2.0",
     "phpspec/prophecy-phpunit": "v2.0.2",
     "goalgorilla/open_social_scripts": "~4.0.0",
-    "shipmonk/phpstan-baseline-per-identifier": "1.0.0",
+    "shipmonk/phpstan-baseline-per-identifier": "^2.0",
     "symfony/phpunit-bridge": "^4.4 || ^5.4 || ^6.2 || ^7.0"
   },
   "extra": {
