@@ -16,7 +16,7 @@
     "kingdutch/cucumber-linter": "^0.1.0",
     "mglaman/phpstan-drupal": "^1.0.0 || 2.0.1",
     "mikey179/vfsstream": "^1.6.11",
-    "palantirnet/drupal-rector": "^1.0 || ^0.20.3",
+    "palantirnet/drupal-rector": "^0.20.3",
     "phpstan/extension-installer": "^1.3.1 || ^1.4.3",
     "phpstan/phpstan": "^1.10.56 || ^2.0",
     "phpstan/phpstan-deprecation-rules": "^1.0 || ^2.0",
