@@ -22,12 +22,5 @@
     "goalgorilla/open_social_scripts": "~4.0.0",
     "shipmonk/phpstan-baseline-per-identifier": "^2.0",
     "symfony/phpunit-bridge": "^4.4 || ^5.4 || ^6.2 || ^7.0"
-  },
-  "extra": {
-    "patches": {
-      "behat/behat": {
-        "PR 1420 - Allow test selection to be empty": "https://github.com/Kingdutch/Behat/commit/22b329b72b471e7db8f197c10c5852d548d502d4.diff"
-      }
-    }
   }
 }
